@@ -1,6 +1,5 @@
-package com.singleton.demo;
+package DesignPatternsExecutionExample;
 
-import com.singleton.LazyInstantiation;
 import com.singleton.LazyThreadUnsafeSingleton;
 
 public class ThreadUnSafeSingletonDemo {

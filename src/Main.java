@@ -1,7 +1,4 @@
-import DesignPatternsExecutionExample.AbstractFactoryExample;
-import DesignPatternsExecutionExample.FactoryExample;
-import com.singleton.SingletonWithEnum;
-import com.singleton.demo.*;
+import DesignPatternsExecutionExample.*;
 
 import java.util.Scanner;
 

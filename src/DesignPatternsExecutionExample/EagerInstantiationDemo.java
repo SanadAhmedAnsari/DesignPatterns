@@ -1,4 +1,4 @@
-package com.singleton.demo;
+package DesignPatternsExecutionExample;
 
 import com.singleton.EagerInstantiation;
 
