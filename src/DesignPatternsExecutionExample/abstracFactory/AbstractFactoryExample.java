@@ -1,4 +1,4 @@
-package DesignPatternsExecutionExample;
+package DesignPatternsExecutionExample.abstracFactory;
 
 import com.abstractFactory.AbstractFactory;
 import com.abstractFactory.FactoryProducer;

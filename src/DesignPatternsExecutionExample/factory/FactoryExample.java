@@ -1,4 +1,4 @@
-package DesignPatternsExecutionExample;
+package DesignPatternsExecutionExample.factory;
 
 import com.factory.Shape;
 import com.factory.ShapeFactory;

@@ -1,21 +1,21 @@
-package DesignPatternsExecutionExample;
+package DesignPatternsExecutionExample.singleton;
 
-import com.singleton.LazyThreadUnsafeSingleton;
+import com.singleton.DoubleCheckedLocking;
 
-public class ThreadUnSafeSingletonDemo {
-    public static void threadUnSafeSingletonDemoMethod() {
+public class ThreadSafeSingletonWithDoubleCheckedLockingDemo {
+    public static void getThreadSafeSingletonWithDoubleCheckedLockingDemo(){
         Thread thread1 = new Thread(new Runnable() {
             @Override
             public void run() {
                 System.out.println("Hello from thread 1");
-                LazyThreadUnsafeSingleton.getLazyInstantiation();
+                DoubleCheckedLocking.getDoubleCheckedLocking();
             }
         });
         Thread thread2 = new Thread(new Runnable() {
             @Override
             public void run() {
                 System.out.println("Hello from thread 2");
-                LazyThreadUnsafeSingleton.getLazyInstantiation();
+                DoubleCheckedLocking.getDoubleCheckedLocking();
             }
         });
         thread1.start();

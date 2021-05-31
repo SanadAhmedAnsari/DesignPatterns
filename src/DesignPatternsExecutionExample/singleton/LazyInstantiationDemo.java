@@ -1,4 +1,4 @@
-package DesignPatternsExecutionExample;
+package DesignPatternsExecutionExample.singleton;
 
 import com.singleton.LazyInstantiation;
 
